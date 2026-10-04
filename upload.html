@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload Song - Mayra Distribution</title>
+<style>
+body{font-family:Arial;background:#f5f5f5;margin:0;padding:25px 15px}
+.box{max-width:500px;margin:auto;background:white;padding:25px;border-radius:12px;box-shadow:0 3px 15px #ccc}
+h1{text-align:center}
+input{width:100%;padding:12px;margin:8px 0 15px;box-sizing:border-box}
+button{width:100%;padding:13px;background:#111;color:white;border:0;border-radius:6px;font-size:16px}
+</style>
+</head>
+
+<body>
+<div class="box">
+<h1>🎵 Upload New Song</h1>
+
+<form>
+<label>Artist Name</label>
+<input type="text" required>
+
+<label>Song Title</label>
+<input type="text" required>
+
+<label>Audio File</label>
+<input type="file" accept="audio/*" required>
+
+<label>Cover Artwork</label>
+<input type="file" accept="image/*" required>
+
+<label>Genre</label>
+<input type="text" placeholder="Pop, Bhojpuri, Hindi etc.">
+
+<button type="submit">Submit Song</button>
+</form>
+</div>
+</body>
+</html>
